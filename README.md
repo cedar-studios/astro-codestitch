@@ -2,7 +2,7 @@
 
 Learn how to build a landing page in as little as 10 minutes with [Astro](https://astro.build/) and [CodeStitch](https://codestitch.app/).
 
-**See it live here**:
+**See it live here**: https://astro-codestitch.netlify.app/
 
 **Video**: https://www.youtube.com/watch?v=70OhEUju5Xc
 

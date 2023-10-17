@@ -1,0 +1,219 @@
+<!-- ============================================ --><!--                     CTA                      --><!-- ============================================ -->
+<section id="cta-1071">
+  <div class="cs-container">
+    <div class="cs-content">
+      <div class="cs-flex">
+        <span class="cs-topper">Get Our Services</span>
+        <h2 class="cs-title">
+          Let’s Get You Back On The Road Faster. Schedule Now!
+        </h2>
+      </div>
+      <div class="cs-button-box">
+        <a href="" class="cs-button-solid">Schedule Our Services</a>
+        <a href="" class="cs-button-transparent">Contact Us</a>
+      </div>
+    </div>
+  </div>
+  <picture class="cs-background">
+    <!--Mobile Image-->
+    <source
+      media="(max-width: 600px)"
+      srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic3.jpg"
+    />
+    <!--Tablet and above Image-->
+    <source
+      media="(min-width: 601px)"
+      srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic3.jpg"
+    />
+    <img
+      loading="lazy"
+      decoding="async"
+      src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/mechanic3.jpg"
+      alt="mechanic"
+      width="1280"
+      height="568"
+    />
+  </picture>
+</section>
+
+<style>
+  /*-- -------------------------- -->
+<---            CTA             -->
+<--- -------------------------- -*/
+
+  /* Mobile - 360px */
+  @media only screen and (min-width: 0rem) {
+    #cta-1071 {
+      padding: var(--sectionPadding);
+      background-color: var(--primary);
+      position: relative;
+      z-index: 1;
+    }
+    #cta-1071 .cs-container {
+      width: 100%;
+      max-width: 80rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* 48px - 64px */
+      gap: clamp(3rem, 6vw, 4rem);
+    }
+    #cta-1071 .cs-content {
+      /* set text align to left if content needs to be left aligned */
+      text-align: center;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      /* centers content horizontally, set to flex-start to left align */
+      align-items: center;
+      /* 48px - 64px */
+      gap: clamp(3rem, 6vw, 4rem);
+    }
+    #cta-1071 .cs-flex {
+      max-width: 39.375rem;
+    }
+
+    #cta-1071 .cs-title {
+      margin: 0;
+
+      color: var(--bodyTextColorWhite);
+    }
+    #cta-1071 .cs-button-box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    #cta-1071 .cs-button-solid {
+      font-size: 1rem;
+      /* 46px - 56px */
+      line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+      text-decoration: none;
+      font-weight: 700;
+      text-align: center;
+      margin: 0;
+      color: #fff;
+      min-width: 9.375rem;
+      padding: 0 1.5rem;
+      background-color: var(--primary);
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      /* prevents padding from adding to the width */
+      box-sizing: border-box;
+    }
+    #cta-1071 .cs-button-solid:before {
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 0%;
+      background: #000;
+      opacity: 1;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: width 0.3s;
+    }
+    #cta-1071 .cs-button-solid:hover:before {
+      width: 100%;
+    }
+    #cta-1071 .cs-button-transparent {
+      font-size: 1rem;
+      /* 46px - 56px */
+      line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+      text-decoration: none;
+      font-weight: 700;
+      text-align: center;
+      margin: 0;
+      color: #fff;
+      min-width: 9.375rem;
+      padding: 0 1.5rem;
+      background-color: transparent;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      /* prevents padding from adding to the width */
+      box-sizing: border-box;
+      transition: color 0.3s;
+    }
+    #cta-1071 .cs-button-transparent:before {
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 0%;
+      background: #fff;
+      opacity: 1;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: width 0.3s;
+    }
+    #cta-1071 .cs-button-transparent:after {
+      /* border */
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: transparent;
+      /* prevents padding from adding to the width */
+      box-sizing: border-box;
+      border: 1px solid #fff;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: width 0.3s;
+      pointer-events: none;
+    }
+    #cta-1071 .cs-button-transparent:hover {
+      color: var(--primary);
+    }
+    #cta-1071 .cs-button-transparent:hover:before {
+      width: 100%;
+    }
+    #cta-1071 .cs-background {
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+    #cta-1071 .cs-background:before {
+      /* background color overlay */
+      content: "";
+      position: absolute;
+      display: block;
+      height: 100%;
+      width: 100%;
+      background: #1a1a1a;
+      opacity: 0.88;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    #cta-1071 .cs-background img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      /* Makes img tag act as a background image */
+      object-fit: cover;
+    }
+  }
+  /* Small Desktop - 1024px */
+  @media only screen and (min-width: 64rem) {
+    #cta-1071 .cs-content {
+      text-align: left;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    #cta-1071 .cs-button-box {
+      flex-wrap: nowrap;
+      align-items: center;
+      flex: none;
+    }
+  }
+</style>
